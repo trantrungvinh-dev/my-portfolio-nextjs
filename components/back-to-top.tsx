@@ -41,14 +41,14 @@ export function BackToTop() {
             <Button
               onClick={scrollToTop}
               size="lg"
-              className="rounded-full bg-gradient-to-r from-blue-500 via-purple-500 to-pink-500 hover:from-blue-600 hover:via-purple-600 hover:to-pink-600 text-white shadow-2xl hover:shadow-3xl transition-all duration-300 p-4 relative overflow-hidden border-2 border-white/20"
+              className="cursor-pointer rounded-full bg-gradient-to-r from-blue-500 via-purple-500 to-pink-500 hover:from-blue-600 hover:via-purple-600 hover:to-pink-600 text-white shadow-2xl hover:shadow-3xl transition-all duration-300 p-4 relative overflow-hidden border-2 border-white/20"
             >
               <motion.div
                 animate={{ y: [0, -3, 0] }}
                 transition={{ duration: 1.5, repeat: Number.POSITIVE_INFINITY }}
                 className="relative z-10"
               >
-                <Rocket className="w-6 h-6" />
+                <Rocket className="w-6 h-6 cursor-pointer" />
               </motion.div>
 
               {/* Animated background */}
