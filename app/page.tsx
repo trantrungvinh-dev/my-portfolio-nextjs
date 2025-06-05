@@ -1,5 +1,6 @@
 import { AboutSection } from "@/components/about-section";
 import { BackToTop } from "@/components/back-to-top";
+import { ContactSection } from "@/components/contact-section";
 import { HeroSection } from "@/components/hero-section";
 import { Navbar } from "@/components/navbar";
 import { ProjectsSection } from "@/components/projects-section";
@@ -13,7 +14,7 @@ export default function Home() {
       <AboutSection />
       <ProjectsSection />
       <SkillsSection />
-
+      <ContactSection />
       <BackToTop />
     </main>
   );
